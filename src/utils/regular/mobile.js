@@ -1,3 +1,3 @@
 export default (value) => {
-	return !!/^1[345678]\d{9}$/.test(value);
+	return !!/^1[3456789]\d{9}$/.test(value);
 }
